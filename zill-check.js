@@ -36,7 +36,7 @@ const searchZillow = () => {
 
     puppeteer.launch({
         headless: true,
-        executablePath: '/usr/bin/chromium-browser',
+        // executablePath: '/usr/bin/chromium-browser',
         args: ['--no-sandbox', '--disable-setuid-sandbox', '--aggressive-cache-discard',
             '--disable-cache',
             '--disable-application-cache',
